@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: br.com.restassuredapitesting.runners.E2e
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 10.262 s <<< FAILURE! - in br.com.restassuredapitesting.runners.E2e
+tentarAlterarReservaSemToken(br.com.restassuredapitesting.tests.booking.tests.PutBookingTest)  Time elapsed: 1.333 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at br.com.restassuredapitesting.tests.booking.tests.PutBookingTest.tentarAlterarReservaSemToken(PutBookingTest.java:61)
+
+tentarAlterarUmaReservaQueNaoExiste(br.com.restassuredapitesting.tests.booking.tests.PutBookingTest)  Time elapsed: 0.832 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <405>.
+
+	at br.com.restassuredapitesting.tests.booking.tests.PutBookingTest.tentarAlterarUmaReservaQueNaoExiste(PutBookingTest.java:87)
+
+tentarAlterarReservaComTokenInvalido(br.com.restassuredapitesting.tests.booking.tests.PutBookingTest)  Time elapsed: 0.815 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at br.com.restassuredapitesting.tests.booking.tests.PutBookingTest.tentarAlterarReservaComTokenInvalido(PutBookingTest.java:74)
+
